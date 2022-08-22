@@ -1,0 +1,72 @@
+h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 500;
+  /* margin-bottom: 30px; */
+}
+.hidden {
+  display: none;
+}
+.appoinment-container {
+  height: 463px;
+  width: 656px;
+  overflow-y: visible;
+}
+.card-container {
+  padding: 40px 40px 20px;
+}
+.appoinment-card {
+  /* border: 1px solid; */
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  border-left: 7px solid;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.appoinment-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.card-box {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.view-more {
+  color: #1252c2;
+  cursor: pointer;
+  justify-self: center;
+}
+.card-doctor-name {
+  font-size: 18px;
+}
+.card-time {
+  color: #383838;
+}
+.card-close {
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: -47px;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card-close img {
+  height: 24px;
+  width: 24px;
+}

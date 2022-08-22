@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="patient.css" />
+    <script src="form.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span>Health</span>
+        <span>Bloom</span>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="active" href="main.html">Home</a></li>
+          <li><a href="#">Appointments</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">About</a></li>
+          <li class="btn btn-primary">
+            <a onclick="showAppoinmentForm()">Get Appoinment</a>
+          </li>
+          <li class="profile">
+            <a href="#"><div class="profile-logo"></div></a>
+          </li>
+        </ul>
+        <div class="show-profile">
+          <div class="profile-details">
+            <p>UserName</p>
+            <p>abc@gmail.com</p>
+            <a class="logout" href="index.html">Logout</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="main-section">
+      <div class="main-container">
+        <div class="content hidden">
+          <h1>We Are Providing Best And Affordable Health Care</h1>
+          <p class="description">
+            Our skilled doctors have tremendous experience with wide range of
+            diseases to serve the needs of our patients.
+          </p>
+          <ul class="feature-lists">
+            <li>
+              <img
+                class="tick-icon"
+                src="images/icons8-done-24.png"
+                alt="tick-icon"
+              />
+              <span>Emergency Cases</span>
+            </li>
+            <li>
+              <img
+                class="tick-icon"
+                src="images/icons8-done-24.png"
+                alt="tick-icon"
+              />
+              <span>Expert Doctors</span>
+            </li>
+            <li>
+              <img
+                class="tick-icon"
+                src="images/icons8-done-24.png"
+                alt="tick-icon"
+              />
+              <span>Modern Clinic</span>
+            </li>
+            <li>
+              <img
+                class="tick-icon"
+                src="images/icons8-done-24.png"
+                alt="tick-icon"
+              />
+              <span>24/7 Help Center</span>
+            </li>
+          </ul>
+          <div class="links">
+            <a class="btn btn-primary" href="form.html">Get Appointment</a>
+            <!-- <a class="btn btn-secondary" href="#">Read More</a> -->
+          </div>
+        </div>
+        <div class="appoinment-container">
+          <h2>Your Appointments</h2>
+          <div class="card-container">
+            <div class="appoinment-card">
+              <h3 class="appoinment-title">Appoinment On 22-22-2222 4:30 pm</h3>
+              <div class="card-box">
+                <p class="card-doctor">Doctor name</p>
+                <p class="card-doctor-name">Dr.Smith</p>
+                <p>View More</p>
+                <p class="card-checkup">Checkup Details</p>
+
+                <p class="card-checkup-detail">General Checkup</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img"></div>
+    </section>
+  </body>
+  <script>
+    // let profile = document.querySelector(".profile-logo");
+    // let showProfile = document.querySelector(".show-profile");
+    // profile.addEventListener("click", () => {
+    //   showProfile.classList.toggle("visible");
+    // });
+    // let patientData = JSON.parse(localStorage.getItem("patientData"));
+    // console.log(patientData.useremail);
+    // document.querySelector(".card-email").innerHTML = patientData.useremail;
+    // document.querySelector(".card-doctor").innerHTML = patientData.doctorName;
+    // document.querySelector(".card-checkup").innerHTML =
+    //   "Checkup :  " + patientData.checkup;
+    // document.querySelector(".card-time").innerHTML = patientData.appoinmentTime;
+    // function showAppoinmentForm() {}
+  </script>
+</html>
